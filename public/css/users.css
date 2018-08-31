@@ -1,0 +1,54 @@
+.content {
+  text-align: center;
+  width: 600px;
+  height: 800px;
+  margin: 20px auto;
+}
+.content button {
+  padding: 5px 10px;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  background: pink;
+  font-size: 16px;
+  margin: 15px;
+  color: deeppink;
+}
+.content table {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+.content table thead {
+  font-size: 16px;
+  background: #00BFFF;
+}
+.content table th {
+  text-align: center;
+}
+.content table td {
+  padding: 10px 0;
+  background: #F0FFFF;
+}
+body {
+  background: url(../images/universe.jpg);
+  background-size: cover;
+}
+.goback {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.goback button {
+  border-radius: 50%;
+  border: none;
+  width: 60px;
+  height: 60px;
+  background: url(../images/goack.jpg);
+  background-size: cover;
+}
+.loadMore {
+  outline: none;
+}
